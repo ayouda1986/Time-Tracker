@@ -1,0 +1,60 @@
+div
+  {
+    flex-direction: column;
+    box-sizing: border-box;
+    display: flex;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;  
+    section
+      {
+        flex-direction: row;
+        box-sizing: border-box;
+        display: flex;
+        max-width: 100%;
+        align-content: center;
+        justify-content: center;
+        align-items: center;  
+        article
+        {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 20em;
+            box-sizing: border-box;
+            flex-direction: column;
+            display: flex;
+            max-width: 20em;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            h2
+            {
+                align-content: center;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                box-sizing: border-box;
+                display: flex;
+            
+            }
+            
+            
+            p
+            {
+                font-size: 120%;
+                line-height: 1.5em;
+                max-width: 15em;
+                text-align: justify;
+            }
+            
+            span
+            {
+                text-decoration-line: underline;
+                text-decoration-style: initial;
+                text-decoration-color: initial;
+                cursor: pointer;
+            }
+    }
+    }
+ }
