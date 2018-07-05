@@ -1,0 +1,47 @@
+button
+{
+    float: left;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+
+    cursor: pointer;
+    padding-top: 1em;
+    padding-right: 2.5em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+
+    transition-property: initial;
+    transition-duration: 0.3s;
+    transition-timing-function: initial;
+    transition-delay: initial;
+
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+    background-color: #ddd;
+    
+    border-bottom-width: #3f51b5;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(63, 81, 181);
+
+}

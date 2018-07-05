@@ -1,5 +1,30 @@
+<!--
 <div class="col" style="background-color:#3f51b5;">
     <li class="nav-item">
-      <button (click)="auth.login()" type="button" class="btn btn-primary" style="background-color:#3f51b5;" href="https://sprints.auth0.com/login?state=sjFQty5JlDDJ2vFq2IcW37Med0USp8jh&client=QWgVl28tvgr2rKGdCa3KVa3XZ7MWMzSR&protocol=oauth2&response_type=token%20id_token&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fcallback&scope=openid%20profile&audience=https%3A%2F%2Fsprints.auth0.com%2Fapi%2Fv2%2F&nonce=qiLccBvG-4iMZwpDjTygDiPIhLPy0mdY&auth0Client=eyJuYW1lIjoiYXV0aDAuanMiLCJ2ZXJzaW9uIjoiOS42LjEifQ%3D%3D">Login</button>
+      <button (click)="auth.login()" type="button" class="btn btn-primary" style="background-color:#3f51b5;">Login</button>
     </li>
 </div>
+-->
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+      <a class="navbar-brand" href="#">Auth0 - Angular</a>
+      <form class="form-inline">
+
+        <button id="qsLoginBtn"
+          class="btn btn-primary my-2 my-sm-0"
+          *ngIf="!auth.isAuthenticated()"
+          (click)="auth.login()" type="button">
+            Log In
+        </button>
+
+        <button id="qsLogoutBtn"
+          class="btn btn-primary my-2 my-sm-0"
+          *ngIf="auth.isAuthenticated()"
+          (click)="auth.logout()" type="button">
+            Log Out
+        </button>
+
+      </form>
+  </div>
+</nav>
